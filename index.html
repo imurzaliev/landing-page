@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MONAGE Landing page</title>
   </head>
   <body>
-    <nav>
-      <h3>MONAGE</h3>
-      <ul>
-        <li><a href="/">Products</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Contacts</a></li>
-      </ul>
-    </nav>
-    <header>
-      <div>
-        <h1>Vegan Korean Skincare MONAGE</h1>
-        <p>
-          Our company is deeply concerned about an environment. That's why we
-          produce 100% organic skincare products for the whole family. 0+
-        </p>
-        <button>Reach out</button>
-      </div>
-      <div>
-        <img src="/" alt="" />
-      </div>
-    </header>
+    <div class="top">
+      <nav>
+        <h3 class="logo">MONAGE</h3>
+        <ul class="links">
+          <li><a href="/">Products</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Contacts</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div>
+          <h1>Vegan Korean Skincare MONAGE</h1>
+          <p>
+            Our company is deeply concerned about an environment. That's why we
+            produce 100% organic skincare products for the whole family. 0+
+          </p>
+          <button>Reach out</button>
+        </div>
+
+        <div>
+          <img
+            class="top-image"
+            src="https://images.unsplash.com/photo-1530519729491-aea5b51d1ee1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            alt="some stock photo"
+          />
+        </div>
+      </header>
+    </div>
+
     <main>
       <h2>MONAGE Product Line</h2>
       <img src="https://monage.ru/img/22080308.jpg" alt="3in1 Cleanser" />
@@ -71,8 +80,10 @@
       </p>
       <button>Shop Now</button>
     </aside>
-    <footer>
-      <h3>Copyright © Iskender Murzaliev 2021</h3>
+    <footer class="bottom">
+      <div>
+        <h3>Copyright © Iskender Murzaliev 2021</h3>
+      </div>
     </footer>
   </body>
 </html>
